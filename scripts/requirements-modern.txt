@@ -1,0 +1,16 @@
+# Tested Linux CPython 3.13.7; Matplotlib 3.11.1 for Figure 7.
+matplotlib==3.11.1
+numpy==2.3.3
+pandas==2.3.2
+PyPDF2==3.0.1
+Pillow==12.3.0
+fonttools==4.67.0
+kiwisolver==1.5.1
+contourpy==1.4.0
+cycler==0.12.1
+packaging==26.3
+pyparsing==3.3.3
+python-dateutil==2.9.0.post0
+pytz==2026.5
+six==1.17.0
+tzdata==2026.5

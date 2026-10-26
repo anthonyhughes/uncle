@@ -1,0 +1,12 @@
+# Tested Linux CPython 3.13.5; supplied Figure 2 dependency lock.
+numpy==2.3.5
+matplotlib==3.10.8
+pillow==12.3.0
+contourpy==1.3.3
+cycler==0.12.1
+fonttools==4.63.0
+kiwisolver==1.5.0
+packaging==25.0
+pyparsing==3.3.2
+python-dateutil==2.9.0.post0
+six==1.17.0

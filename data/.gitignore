@@ -1,0 +1,15 @@
+# Do not include the raw data in the git repo
+# Downloaded from:
+# https://worksheets.codalab.org/rest/bundles/0x32a8394d80064f028859c9e57310a7f7/contents/blob/
+# and
+# https://worksheets.codalab.org/rest/bundles/0x38e021ee339a4f6aa21d9c4a16c1b7ee/contents/blob/
+cdr
+# Downloaded from https://archive.ics.uci.edu/ml/machine-learning-databases/00296/dataset_diabetes.zip
+diabetes
+dogfish
+enron
+molhiv_transformer
+fingerprints
+
+
+__pycache__/

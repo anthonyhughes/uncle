@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uncle-paper"
+version = "0.3.0"
+description = "Readable reference implementation of retained-spectrum and A+B2 UNCLE experiments"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "pandas", "matplotlib"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["uncle", "uncle.simplified"]
+
+[tool.setuptools.package-dir]
+uncle = "."
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["..", "."]
+markers = ["migration: comparison against the historical checkout (not needed by this package)", "real_data: opt-in cloud parity checks on frozen real feature subsets"]

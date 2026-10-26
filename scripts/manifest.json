@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "submission_filename": "9306_Certified_Unlearning_with.pdf",
+  "submission_sha256": "1f6bddce9cf322d3f7b14ee45eec721fbf4b3543a0937ea5dec0c2de1b44dc33",
+  "scope": "Regenerate saved submission graphic assets from frozen numeric plotting ledgers and mathematical drawing recipes, without training or unlearning. Paper captions and page typesetting are not regenerated or verified.",
+  "skipped_figures": {},
+  "figures": [
+    {
+      "number": 1,
+      "title": "Native CE increase at at-most 50% retraining",
+      "page_index": 1,
+      "xobject_name": "/Im1",
+      "matplotlib": "3.7.3",
+      "reference_stem": "diagnostics/uncle-nine-mean-retention-refresh-20260924/canonical/summary_ce_increase_retrain50_midpoint_no_errorbars_auto_v1_y3",
+      "pdf_sha256": "16ed0054451ca36265c19f00f1588b5ba772f88f1b0423dabaa0858e96ed8596",
+      "png_sha256": "8ce495dd92522293f0744c6d0796d5de1829a4728adc0dd07c21e181edbf9095",
+      "drawing_sha256": "95a38ff0b1657122f61a8eafd6d00b95d091f909acd94d80d92981071f98bdfa",
+      "original_scripts": [
+        "scripts/refresh_mean_retention_summaries.py",
+        "scripts/plot_focused_retention_summary.py",
+        "scripts/plot_nine_summary_extended_k.py"
+      ],
+      "inputs": {
+        "diagnostics/uncle-nine-mean-retention-refresh-20260924/manifest.json": "cd40fdff124d658c58a8aca64c656dba88c1057f9398e94c8eaf8a5e6784b387",
+        "diagnostics/uncle-nine-mean-retention-refresh-20260924/plots/ce_increase_midpoints.csv": "7f908f32e734c3753ef82f4734dfbc66e23a7a06f924b69b606790be4306a99e",
+        "diagnostics/uncle-nine-mean-retention-refresh-20260924/tables/removal50_thresholds.csv": "4b528dbb46197ddfa87f44fd03ce1075f4082dde7be64a04a5b18202621b0ab3"
+      }
+    },
+    {
+      "number": 2,
+      "title": "Introductory negative-gradient field and certificate geometry",
+      "matplotlib": "3.10.8",
+      "original_scripts": ["figure 2/reproduce_intro_exact.py"],
+      "inputs": {
+        "figure 2/reproduce_intro_exact.py": "77472c154c1e1ac1e8a11c230cb6d44f8623f06c0f0186e585a0ebfe561d86dc",
+        "figure 2/requirements-lock.txt": "6f90c61594e78e5c33f601fcb84d805245b8bd98fbc775bfc91faf4864f689f3",
+        "figure 2/intro_comparison.tex": "76467a9a8901131c0b1ccc885ff8ea68e6063a6bff68b33a2f4ffd85035e266c",
+        "figure 2/reproduction_manifest.json": "16645c0271baad5180844c52edecbfcf4f1555574a7b26a28921fc9f8f144ebe"
+      },
+      "outputs": [
+        {
+          "output_stem": "figure_2a",
+          "reference_pdf": "figure 2/followup_plot0_allspace_v3 (1).pdf",
+          "pdf_sha256": "e29d27ba3be49967cde65baa482a9540c5468e58dbcef0f831008af77a1efbeb",
+          "drawing_sha256": "de8b268ce2a2a4bc66ee84ef74bece01920e1734af0442896a5d272d27638e8a",
+          "page_index": 4,
+          "xobject_name": "/Im2"
+        },
+        {
+          "output_stem": "figure_2b",
+          "reference_pdf": "figure 2/followup_plot1_ellipsoid_v7 (1).pdf",
+          "pdf_sha256": "56e9a6b9f7ef88deb107e343dc37679e8b97c52d980b3074e0639afd35d45b30",
+          "drawing_sha256": "348722ef29d8a4acedc4d78a0fd4a485e43bc65919da20143c32e40c49d9f346",
+          "page_index": 4,
+          "xobject_name": "/Im3"
+        },
+        {
+          "output_stem": "figure_2c",
+          "reference_pdf": "figure 2/followup_plot3_balanced_intersection_v8_B_gradient_field (1).pdf",
+          "pdf_sha256": "2a2a88c95e1dd99b7e9dd1d74557d2926412f9aab899fb16d23eb96dc15d360b",
+          "drawing_sha256": "085175c484cdeba9e97e2a83d529636d019131295b7b108125eacfa7b407ae10",
+          "page_index": 4,
+          "xobject_name": "/Im4"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Raised-regularization accuracy at k=100",
+      "page_index": 8,
+      "xobject_name": "/Im5",
+      "matplotlib": "3.7.3",
+      "reference_stem": "diagnostics/ab2-nine-raised-ridge-final-20260921/plots/raised_ridge_accuracy50_k100_nine",
+      "pdf_sha256": "bc80496c4c7733aaf5230618edad893252664ab7a51eb4c50216a1b005ed92ec",
+      "png_sha256": "fcf0a026b12b850167b8ca704cceb868be5ee9bb08c8ca0c067ec6c5ee23d97b",
+      "drawing_sha256": "e01dc1755a6f857ebb41223ff6c53be741273d95adf951f051c399eacd1cd96d",
+      "original_scripts": [
+        "scripts/plot_completed_raised_three_formats.py",
+        "scripts/plot_ab2_nine_real_ridge.py"
+      ],
+      "inputs": {
+        "diagnostics/ab2-nine-raised-ridge-final-20260921/plots/summary_values.csv": "5430a8a8579a47260d186351c8b162b5bbcd88f13fa15cadffd028f6a80246fe"
+      }
+    },
+    {
+      "number": 4,
+      "title": "Baseline regularization searches",
+      "page_index": 20,
+      "xobject_name": "/Im6",
+      "matplotlib": "3.7.3",
+      "reference_stem": "diagnostics/uncle-nine-test-selected-refresh-20260922/reference_search/reference_lambda_test_ce",
+      "pdf_sha256": "9f01f72df7386f2d4a00b3dd13e81399089aaf30444c01fa86903d674aa7fd7e",
+      "png_sha256": "af6c2478e2298c3d469fcd21d6d76dcec5a55f576cbb957f2b6c5e975d34943b",
+      "drawing_sha256": "74cc2bdeac0e4a485e405920a4fed3d154d265838e0babef57cf31d84b4c8777",
+      "original_scripts": [
+        "scripts/plot_test_selected_reference_search.py"
+      ],
+      "inputs": {
+        "diagnostics/uncle-nine-test-selected-refresh-20260922/reference_search/baseline_sampled_regularizations.csv": "10719277168dd3344c15ab282427fd3a33bfa274fdd6490e2d142dbc9c274084",
+        "diagnostics/uncle-nine-test-selected-refresh-20260922/reference_search/baseline_failed_regularizations.csv": "6242cee27c5f140cdbf0bf5050de5904b731b91fcb6c5b1cd23219990ae2ff75",
+        "diagnostics/uncle-nine-test-selected-refresh-20260922/reference_search/figure_manifest.json": "5727b31f9f25e5f833ddf00c09fd4aa9867538ca238b7d397815a30e5292acdc"
+      }
+    },
+    {
+      "number": 5,
+      "title": "Illustrative Pareto tradeoff",
+      "page_index": 20,
+      "xobject_name": "/Im7",
+      "matplotlib": "3.7.3",
+      "reference_stem": "diagnostics/experiment-design-paretos-20260920/figures/pareto_design_schematic",
+      "pdf_sha256": "b8201fb13b201e0721194d24d4a24794aa93865c18d7928a31484675fdec5941",
+      "png_sha256": "4697705e83837932331b97878b75cea836cda9ea0db5850cf7fa123d6c7efe00",
+      "drawing_sha256": "a313965a808e619a1debd57b8c2108b7067ccb5665ec7b2bdf07dc37e9c01569",
+      "original_scripts": [
+        "scripts/plot_pareto_design_schematic.py"
+      ],
+      "inputs": {}
+    },
+    {
+      "number": 6,
+      "title": "Guo hyperparameter exploration",
+      "page_index": 21,
+      "xobject_name": "/Im8",
+      "matplotlib": "3.7.3",
+      "reference_stem": "diagnostics/experiment-design-appendix-20260920/figures/guo_coarse_refinement_parameters",
+      "pdf_sha256": "f1b458dfd31f7f6e9960fc4dc50f192927a954b645470f6c221636808cdc5bce",
+      "png_sha256": "955a5d1c3651804fd5b04977f35718552ebdc124cbbc0831f1eb7467e777617d",
+      "drawing_sha256": "6f2ebbb53a27bd7b5e1219a752cf9c68c926c3ebc4836e3a7b6ed57781c07df8",
+      "original_scripts": [
+        "scripts/plot_experiment_design_appendix.py"
+      ],
+      "inputs": {
+        "diagnostics/experiment-design-appendix-20260920/figures/guo_sampled_parameters.csv": "7bae59d3359ca3370b3426aba5b6c0feac43144d857b9bdc04fd49221921622a",
+        "diagnostics/experiment-design-appendix-20260920/figures/guo_selected_pareto_parameters.csv": "3ee6e7e0d54ee86ccd05fb4d96a27c42d1a6f3ece35d3d0b8aaff61c158e3845"
+      }
+    },
+    {
+      "number": 7,
+      "title": "Mean random-removal CE increase, log scale",
+      "png_comparison": "pixels",
+      "png_comparison_note": "Original and regenerated PNG pixels are identical; PNG encoding differs across environments. The submitted PDF remains byte-for-byte identical.",
+      "page_index": 22,
+      "xobject_name": "/Im9",
+      "matplotlib": "3.11.1",
+      "reference_stem": "diagnostics/retention-nine-dense30-20260922a/plot_variants/retention_ce_increase_log_nine",
+      "pdf_sha256": "af8980044f322876f185070f18bfcf70e121b13e22d926e258a3e2709ff6d10c",
+      "png_sha256": "159e007abaad57697fcf33deb51a3179624d0590b4ea04b43632086a377cb799",
+      "drawing_sha256": "40180799dbf93dd2009a7a4dced4ac2795dcc6a57b5dae9a3aacbce6f96c29a7",
+      "original_scripts": [
+        "scripts/plot_retention_calibration_variants.py"
+      ],
+      "inputs": {
+        "diagnostics/retention-nine-dense30-20260922a/plot_variants/fraction_percentiles.csv": "26dc0dff78024d63cfd98f55fafe8ef3d1ca1a4837d8e622fd7c3fb48f2fe8c8"
+      }
+    }
+  ]
+}

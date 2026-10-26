@@ -1,0 +1,65 @@
+% Source: external artifact root / figure 2 / intro_comparison.tex
+% Source SHA-256: 76467a9a8901131c0b1ccc885ff8ea68e6063a6bff68b33a2f4ffd85035e266c
+% Only image paths below were changed to images/figure_2a.pdf, 2b.pdf, 2c.pdf.
+% Put generated panel PDFs in the manuscript's images/ directory.
+% The supplied captions, bibliography keys and theorem/macro dependencies are
+% preserved verbatim; this snippet does not provide their definitions.
+% This supplied caption is a different draft from the submitted PDF caption.
+% Only the three graphic assets are verified against the submitted Figure 2.
+% Preamble: \usepackage{graphicx,subcaption,natbib}
+% The manuscript is assumed to define \mcA and \unerring.
+% Replace TODO-global-analyses with your bibliography keys.
+% Exact panel versions: allspace v3; ellipsoid v7; intersection v8 B.
+% All three selected panels show -\nabla L, with no flow paths.
+
+\begin{figure}[]
+    \centering
+    \begin{subfigure}[t]{0.31\linewidth}
+        \centering
+        \vspace{0pt}
+        \includegraphics[width=\linewidth]{images/figure_2a.pdf}
+        \caption{Conditions must hold everywhere.}
+        \label{fig:general-a-allspace}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.31\linewidth}
+        \centering
+        \vspace{0pt}
+        \includegraphics[width=\linewidth]{images/figure_2b.pdf}
+        \caption{\citet{rubinstein2026accuracy}: it suffices to check conditions
+        in a ``sufficiently large'' ellipsoid.}
+        \label{fig:general-a-ellipsoid}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.31\linewidth}
+        \centering
+        \vspace{0pt}
+        \includegraphics[width=\linewidth]{images/figure_2c.pdf}
+        \caption{Theorem~\ref{thm:general_intro}: any sufficiently large convex
+        set suffices.}
+        \label{fig:general-a-balanced}
+    \end{subfigure}
+    \caption[Progress in theoretical analyses of approximate unlearning.]{%
+        Progress in theoretical analyses of approximate unlearning algorithms,
+        inspired by Figure~2 of \citet{rubinstein2026accuracy}.
+        \textbf{(a)} Until recently, the leading analyses
+        \citep{TODO-global-analyses} required global convexity and smoothness
+        conditions on the loss, necessitating a very large regularization
+        coefficient for their guarantees to apply.
+        \textbf{(b)} \citet{rubinstein2026accuracy} showed that it suffices for
+        these conditions to hold within a relatively small ellipsoid.
+        This improved on the previous state of the art because these local
+        conditions hold for ``well-behaved'' regression problems. However,
+        turning this result into an unlearning algorithm requires a
+        corresponding certification algorithm that verifies the local
+        conditions for a specific dataset.
+        \textbf{(c)} In Theorem~\ref{thm:general_intro}, we show that it suffices
+        to verify the same conditions in any ``sufficiently large'' convex
+        set $\mcA$. This seemingly minor difference is significant for our
+        \unerring{} algorithm, which applies Theorem~\ref{thm:general_intro}
+        to the intersection of an ellipsoid and a parallelepiped, and
+        requires a fundamentally different proof technique.
+        All three panels depict the gradient-descent field, $-\nabla L(\theta)$.
+    }
+    \label{fig:general-a-comparison}
+\end{figure}
